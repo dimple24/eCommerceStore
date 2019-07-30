@@ -37,8 +37,8 @@ export default class Navbar extends Component {
     );
  }
 }
-const NavWrapper =  styled.nav
- `background: black;
+const NavWrapper =  styled.nav `
+background: black;
   .nav-link{
       color: var(--mainWhite) !important;
       font-size: 1.3rem;

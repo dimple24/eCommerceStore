@@ -136,7 +136,8 @@ class ProductProvider extends Component {
             return { cart: [] };
 
         }, () => {
-            {/* adding item back to cart so that afte removing they can be added */ }
+            /* adding item back to cart so that afte removing they can be added */ 
+
             this.setProducts();
             this.addTotals();
 

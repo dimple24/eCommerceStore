@@ -45,8 +45,8 @@ export default function Modal ({name,title}) {
 
     )
     }
-const ModalContainer = styled.div
-`position: fixed;
+const ModalContainer = styled.div `
+position: fixed;
 top:0;
 left:0;
 right:0;
